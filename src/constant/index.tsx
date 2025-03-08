@@ -9,6 +9,9 @@ import {
   SiRedux,
   SiDjango,
   SiPostgresql,
+  SiNumpy,
+  SiPandas,
+  
 } from "react-icons/si";
 import {
   FaReact,
@@ -26,6 +29,7 @@ import {
   FaCloudflare,
   FaPython,
   FaDocker,
+  FaChartBar,
 } from "react-icons/fa";
 import { SiReactquery, SiGoogleanalytics } from "react-icons/si";
 import { CgAlbum } from "react-icons/cg";
@@ -100,22 +104,25 @@ const techStacks = {
       icon: <FaJs size={20} />,
     },
     {
-      name: "NextJS",
-      icon: <TbBrandNextjs size={20} />,
+      name: "Pandas",
+      icon: <SiPandas size={20} />,
     },
     {
-      name: "React",
-      icon: <FaReact size={20} />,
+      name: "Numpy",
+      icon: <SiNumpy size={20} />,
     },
     {
-      name: "TailwindCSS",
-      icon: <SiTailwindcss size={20} />,
+      name: "Matplotlib",
+      icon: <FaChartBar size={20} />,
     },
     {
       name: "Github",
       icon: <FaGitAlt size={20} />,
     },
-
+    {
+      name: "NextJS",
+      icon: <TbBrandNextjs size={20} />,
+    },
   ],
   Infra: [
     {
